@@ -1,0 +1,45 @@
+body {
+    background-color: #888;
+}
+
+nav {
+    background-color: #383838;
+}
+
+.nav-list a {
+    color: rgb(136,136,136);
+}
+
+.nav-list a:hover {
+    color: #d35266;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #d35266;
+}
+
+.btn:hover {
+    background-color: #830c1e;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.main-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .socials a {
+      color: #888;
+  }

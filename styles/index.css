@@ -42,4 +42,26 @@ nav {
 
   .socials a {
       color: #888;
+      font-size: 1.3rem;
+      padding: 0 0.3rem;
   }
+
+  .socials a:first-child:hover {
+      color: rgb(63,92,154);
+  }
+
+  .socials a:nth-child(2):hover {
+    color: rgb(23,148,228);
+}
+
+  .socials a:nth-child(3):hover {
+    color: rgb(156,45,186);
+}
+
+.socials a:nth-child(4):hover {
+    color: rgb(49,67,88);
+}
+
+.socials a:nth-child(5):hover {
+    color: rgb(0,119,177);
+}

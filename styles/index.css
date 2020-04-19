@@ -28,8 +28,7 @@ a,
 .title,
 .make,
 .price,
-.fa-chevron-left,
-.fa-chevron-right {
+.carousel-arrow {
   color: #d35266; 
 }
 
@@ -78,7 +77,6 @@ a,
     height: 15rem;
 }
 
-
 .card img {
   height: 15rem;
 }
@@ -94,12 +92,16 @@ a,
 .keyboard,
 .percussion {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 0.1fr ;
   grid-gap: 1rem;
 }
 
 .border-bottom {
   width: 97%;
+}
+
+.arrow {
+  padding-top: 12rem;
 }
 
 .footer-logo {
@@ -148,12 +150,18 @@ a,
 
 .footer-bottom span,
 .footer-bottom a,
-.footer-bottom small {
+.footer-bottom small,
+.footer-list li {
   color: #888;
 }
 
 .footer-bottom a:hover {
   color: #d35266;
+}
+
+.footer-list {
+  display: flex;
+  background-color: #383838;
 }
 
 @media only screen and (max-width: 786px) {

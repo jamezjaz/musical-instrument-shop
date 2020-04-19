@@ -91,6 +91,10 @@ aside {
     height: 3rem;
 }
 
+.search-row:hover {
+    background-color: white;
+}
+
 .other-pages li {
     max-width: 100%;
     padding: 0.3rem 0.5rem;

@@ -16,7 +16,8 @@ h3,
 h6,
 p,
 a,
-.line-through {
+.line-through,
+aside {
   color: rgb(136,136,136);
 }
 
@@ -28,7 +29,9 @@ a,
 .title,
 .make,
 .price,
-.carousel-arrow {
+.arrow,
+.other-pages a:hover,
+.footer-bottom a:hover {
   color: #d35266; 
 }
 
@@ -88,6 +91,17 @@ a,
     height: 3rem;
 }
 
+.other-pages li {
+    max-width: 100%;
+    padding: 0.3rem 0.5rem;
+    margin: 0 0.3rem;
+    border: 0.1rem solid #888;
+}
+
+.noBorder {
+    border: none !important;
+}
+
 .footer-logo {
   width: 2rem;
   height: 2rem;
@@ -137,10 +151,6 @@ a,
 .footer-bottom small,
 .footer-list li {
   color: #888;
-}
-
-.footer-bottom a:hover {
-  color: #d35266;
 }
 
 .footer-list {

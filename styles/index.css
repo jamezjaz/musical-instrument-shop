@@ -6,26 +6,40 @@ nav {
     background-color: #383838;
 }
 
-.nav-list a {
-    color: rgb(136,136,136);
+.nav-list a,
+h2,
+h3,
+h6,
+p,
+a,
+.line-through {
+  color: rgb(136,136,136);
 }
 
 .nav-list a:hover {
-    color: #d35266;
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.title,
+.make,
+.price,
+.fa-chevron-left,
+.fa-chevron-right {
+  color: #d35266; 
 }
 
 .btn {
-    background-color: #d35266;
+  background-color: #d35266;
 }
 
 .btn:hover {
-    background-color: #830c1e;
+  background-color: #830c1e;
 }
 
 .logo {
-    width: 4rem;
-    height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .main-container {
@@ -40,7 +54,6 @@ nav {
   background: url(https://cdn4.vectorstock.com/i/1000x1000/15/03/musical-instruments-background-vector-5031503.jpg);
   width: 100%;
   height: 30rem;
-  top: 0;
 }
 
 .main-form {
@@ -59,6 +72,30 @@ nav {
 .carousel-item img {
     width: 25rem;
     height: 15rem;
+}
+
+
+.card img {
+  height: 15rem;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.keyboard,
+.percussion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.border-bottom {
+  width: 97%;
 }
 
 .footer-logo {
@@ -116,8 +153,21 @@ nav {
 }
 
 @media only screen and (max-width: 786px) {
-    .footer-bottom {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .footer-bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
   }
+
+  .keyboard,
+  .percussion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .first-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

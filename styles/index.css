@@ -175,6 +175,10 @@ a,
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .dropdown {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 576px) {

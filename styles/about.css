@@ -77,22 +77,29 @@ a {
 }
 
 .heading h2 {
-    font-size: xx-large;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.about-info {
+  padding: 1rem 7rem;
+  margin: 0 5rem;
+  line-height: 1.5;
 }
 
 .footer-logo {
-    width: 2rem;
-    height: 2rem;
-  }
+  width: 2rem;
+  height: 2rem;
+}
   
-  .socials a {
-    color: #888;
-    font-size: 1.4rem;
-    padding: 0 0.3rem;
-    border: 0.05rem solid #888;
-    border-radius: 3rem;
-    background-color: #383838;
-  }
+.socials a {
+  color: #888;
+  font-size: 1.4rem;
+  padding: 0 0.3rem;
+  border: 0.05rem solid #888;
+  border-radius: 3rem;
+  background-color: #383838;
+}
   
   .socials a:first-child:hover {
     color: rgb(63,92,154);
@@ -136,7 +143,7 @@ a {
     background-color: #383838;
   }
   
-  @media only screen and (max-width: 786px) {
+  @media only screen and (max-width: 768px) {
       .dropdown {
           display: none;
       }

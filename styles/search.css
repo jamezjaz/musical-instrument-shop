@@ -159,7 +159,7 @@ aside {
   background-color: #383838;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
     .dropdown {
         display: none;
     }

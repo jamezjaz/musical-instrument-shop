@@ -164,7 +164,7 @@ a,
   background-color: #383838;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
   .footer-bottom {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -179,6 +179,10 @@ a,
 
   .dropdown {
     display: none;
+  }
+
+  .carousel-body {
+    padding-left: 0 !important;
   }
 }
 

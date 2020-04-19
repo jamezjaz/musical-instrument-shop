@@ -6,6 +6,10 @@ nav {
     background-color: #383838;
 }
 
+.nav-list a {
+  padding: 0 0.5rem;
+}
+
 .nav-list a,
 h2,
 h3,

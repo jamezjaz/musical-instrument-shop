@@ -84,6 +84,10 @@ a,
     width: 100%;
 }
 
+.search-results {
+    height: 3rem;
+}
+
 .footer-logo {
   width: 2rem;
   height: 2rem;
@@ -147,6 +151,16 @@ a,
 @media only screen and (max-width: 786px) {
     .dropdown {
         display: none;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .footer-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 2rem;
     }
 }
 

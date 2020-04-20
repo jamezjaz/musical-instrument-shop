@@ -11,11 +11,11 @@
 }
 
 body {
-    background-color: #888;
+  background-color: #888;
 }
 
 nav {
-    background-color: #383838;
+  background-color: #383838;
 }
 
 .nav-list a {
@@ -70,7 +70,7 @@ a {
 }
 
 .text-area {
-    width: 5rem;
+  width: 5rem;
 }
 
 .search-btn {
@@ -113,62 +113,60 @@ a {
   background-color: #383838;
 }
   
-  .socials a:first-child:hover {
-    color: rgb(63,92,154);
+.socials a:first-child:hover {
+  color: rgb(63,92,154);
+}
+
+.socials a:nth-child(2):hover {
+  color: rgb(23,148,228);
+}
+
+.socials a:nth-child(3):hover {
+  color: rgb(156,45,186);
+}
+
+.socials a:nth-child(4):hover {
+  color: rgb(49,67,88);
+}
+
+.socials a:nth-child(5):hover {
+  color: rgb(0,119,177);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #383838;
+}
+
+.footer-bottom h2 {
+  color: white;
+}
+
+.footer-bottom span,
+.footer-bottom a,
+.footer-bottom small,
+.footer-list li {
+  color: #888;
+}
+
+.footer-list {
+  display: flex;
+  background-color: #383838;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown {
+    display: none;
   }
-  
-  .socials a:nth-child(2):hover {
-    color: rgb(23,148,228);
+
+  .aside {
+    display: none;
   }
-  
-  .socials a:nth-child(3):hover {
-    color: rgb(156,45,186);
-  }
-  
-  .socials a:nth-child(4):hover {
-    color: rgb(49,67,88);
-  }
-  
-  .socials a:nth-child(5):hover {
-    color: rgb(0,119,177);
-  }
-  
+
   .footer-bottom {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #383838;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
   }
-  
-  .footer-bottom h2 {
-    color: white;
-  }
-  
-  .footer-bottom span,
-  .footer-bottom a,
-  .footer-bottom small,
-  .footer-list li {
-    color: #888;
-  }
-  
-  .footer-list {
-    display: flex;
-    background-color: #383838;
-  }
-  
-  @media only screen and (max-width: 768px) {
-      .dropdown {
-          display: none;
-      }
-  
-      .aside {
-          display: none;
-      }
-  
-      .footer-bottom {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          padding: 0 2rem;
-      }
-  }
-  
-  
+}

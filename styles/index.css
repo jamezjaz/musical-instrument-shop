@@ -11,11 +11,11 @@
 }
 
 body {
-    background-color: #888;
+background-color: #888;
 }
 
 nav {
-    background-color: #383838;
+  background-color: #383838;
 }
 
 .nav-list a {
@@ -81,7 +81,7 @@ a,
 }
 
 .main-form {
-    padding-top: 25rem;
+  padding-top: 25rem;
 }
 
 .search-btn {
@@ -94,8 +94,8 @@ a,
 }
 
 .carousel-item img {
-    width: 25rem;
-    height: 15rem;
+  width: 25rem;
+  height: 15rem;
 }
 
 .card img {
@@ -126,17 +126,17 @@ a,
 }
 
 .footer-logo {
-    width: 2rem;
-    height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .socials a {
-    color: #888;
-    font-size: 1.4rem;
-    padding: 0 0.3rem;
-    border: 0.05rem solid #888;
-    border-radius: 3rem;
-    background-color: #383838;
+  color: #888;
+  font-size: 1.4rem;
+  padding: 0 0.3rem;
+  border: 0.05rem solid #888;
+  border-radius: 3rem;
+  background-color: #383838;
 }
 
 .socials a:first-child:hover {
@@ -187,9 +187,9 @@ a,
 
 @media only screen and (max-width: 768px) {
   .footer-bottom {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
   }
 
   .keyboard,

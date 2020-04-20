@@ -60,6 +60,10 @@ a,
   height: 30rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .main-form {
     padding-top: 25rem;
 }

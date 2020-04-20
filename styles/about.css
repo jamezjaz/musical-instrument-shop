@@ -4,11 +4,12 @@
 @font-face {
   font-family: "Gotham Rounded";
   src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot");
-  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
+  src: 
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
   url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"),
   url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"),
   url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");0
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
 }
 
 @font-face {
@@ -41,7 +42,7 @@ h3,
 h6,
 p,
 a {
-  color: rgb(136,136,136);
+  color: rgb(136, 136, 136);
 }
 
 .nav-list a:hover {
@@ -127,11 +128,11 @@ a {
 }
   
 .socials a:first-child:hover {
-  color: rgb(63,92,154);
+  color: rgb(63, 92, 154);
 }
 
 .socials a:nth-child(2):hover {
-  color: rgb(23,148,228);
+  color: rgb(23, 148, 228);
 }
 
 .socials a:nth-child(3):hover {
@@ -139,7 +140,7 @@ a {
 }
 
 .socials a:nth-child(4):hover {
-  color: rgb(49,67,88);
+  color: rgb(49,67, 88);
 }
 
 .socials a:nth-child(5):hover {

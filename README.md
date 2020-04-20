@@ -69,7 +69,7 @@ This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/c90c5ee7cbf631cf6ad56b0f73755ba272db9a7a/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/9bb332242fba9fcee31416d5ce68473b99f57637/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs

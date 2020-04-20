@@ -36,6 +36,11 @@ nav {
   padding: 0 0.5rem;
 }
 
+.nav-list li {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-list a,
 h2,
 h3,
@@ -48,6 +53,10 @@ a,
 
 .nav-list a:hover {
   text-decoration: none;
+}
+
+.navbar-collapse {
+  width: 5rem;
 }
 
 .nav-list a:hover,

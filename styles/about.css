@@ -2,13 +2,13 @@
 @import url(//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue);
 
 @font-face {
-  font-family: "Gotham Rounded"; 
-  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot"); 
-  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), 
-  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), 
-  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), 
-  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), 
-  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
+  font-family: "Gotham Rounded";
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot");
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");0
 }
 
 @font-face {

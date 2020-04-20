@@ -15,28 +15,34 @@
 <body>
     <div class="main-container">
         <!-- navigation -->
-    <nav class="d-flex justify-content-around align-items-center sticky-top">
-        <div>
-            <a href="index.html">
-                <img class="logo" src="./images/logo.png" alt="Logo"/>
-			</a>
-        </div>
-        <div class="d-none d-md-block font-weight-bold nav-list">
-			<a href="index.html" class="active"><i class="fas fa-home "></i> HOME</a>
-			<a href="about.html" ><i class="fas fa-columns"></i> ABOUT</a>
-			<a href="#"><i class="fas fa-shopping-cart"></i> CHECKOUT</a>
-			<button class="btn text-white">POST AN AD</button>
-		</div>
-		<div class="nav-list">
-            <a href="#">
-                <i class="far fa-envelope"></i>
-                Jamezjaz@gmail.com
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="" href="index.html">
+                <img class="logo" src="./images/logo.png" alt="logo">
             </a>
-        </div>
-        <div class="d-block d-md-none nav-list">
-            <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
-        </div>
-    </nav>
+            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav align-items-center font-weight-bold nav-list">
+                <li class="nav-item home pb-1 pr-3">
+                  <a class="nav-list" href="index.html"><i class="fas fa-home"></i> HOME</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-list" href="about.html"><i class="fas fa-columns"></i> ABOUT</a>
+                </li>
+                <li class="nav-item pb-1 pr-3">
+                    <a class="nav-link" href="about.html"><a href="#"><i class="fas fa-shopping-cart"></i> CHECKOUT</a>
+                </li>
+                <li><button class="btn text-white">POST AN AD</button></li>
+              </ul>
+            </div>
+            <div class="nav-list d-none d-lg-flex">
+                <a href="#">
+                    <i class="far fa-envelope"></i>
+                    Jamezjaz@gmail.com
+                </a>
+            </div>
+          </nav>
     <section class="background">
         <div class="heading">
             <h2 class="font-weight-bolder">JAMEZJAZ MUSICAL WORLD</h2>

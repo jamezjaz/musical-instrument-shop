@@ -1,5 +1,5 @@
 # musical-instrument-shop
-This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a design of an online musical instruments store. Here, one can actually search and place order for musical instruments online and it'd be delivered to his/her doorstep. The website contain 3 pages, the home page, the about page and the search page. The home page contains the carousel slide and the main contents. The about page contains the insights of what the company does and the search page contains the results of the serched item(s). All the pages are responsive. I was inspired by the work of [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
+This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a design of an online musical instruments store. Here, one can actually search and place order for musical instruments online and it'd be delivered to his/her doorstep. The website contains 3 pages, the home page, the about page and the search page. The home page contains the carousel slide and the main contents. The about page contains the insights of what the company does and the search page contains the results of the serched item(s). All the pages are responsive. I was inspired by the work of [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
 
 ## Preview

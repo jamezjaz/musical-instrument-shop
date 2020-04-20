@@ -1,3 +1,15 @@
+@import url(//db.onlinewebfonts.com/c/1549fe8fd297f1e6501a3d6ad7f77394?family=Gotham+Rounded);
+
+@font-face {
+  font-family: "Gotham Rounded"; 
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot"); 
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
+}
+
 body {
     background-color: #888;
 }
@@ -30,6 +42,10 @@ a,
 .price,
 .carousel-arrow {
   color: #d35266; 
+}
+
+.carousel-body p {
+  line-height: 1.5;
 }
 
 .btn {

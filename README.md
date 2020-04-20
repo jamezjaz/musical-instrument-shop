@@ -23,7 +23,7 @@ This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a
 
 
 # Mobile Views
-- Home Page
+              - Home Page
 ![musical-shop-page-mobile1](https://user-images.githubusercontent.com/57812000/79696182-b5553700-8240-11ea-979d-0f9767694f45.png)
 
 ![musical-shop-page-mobile2](https://user-images.githubusercontent.com/57812000/79696185-b8e8be00-8240-11ea-9635-7e330538718c.png)
@@ -32,12 +32,12 @@ This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a
 
 ![musical-shop-page-mobile4](https://user-images.githubusercontent.com/57812000/79696192-c1d98f80-8240-11ea-801c-45759e904d04.png)
 
-- Search Page
+                - Search Page
 ![musical-search-mobile-page1](https://user-images.githubusercontent.com/57812000/79696221-ff3e1d00-8240-11ea-8138-02ac935f4592.png)
 
 ![musical-search-mobile-page2](https://user-images.githubusercontent.com/57812000/79696225-02d1a400-8241-11ea-9662-b47d24cde553.png)
 
-- About Page
+                - About Page
 ![musical-about-mobile-page1](https://user-images.githubusercontent.com/57812000/79702486-d3d02800-826a-11ea-879f-af3853379295.png)
 
 

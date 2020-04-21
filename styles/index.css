@@ -123,12 +123,16 @@ p,
   display: none;
 }
 
+.text-area {
+  height: 2.5rem;
+}
+
 .main-form {
   padding-top: 25rem;
 }
 
 .search-btn {
-  padding: 0.7rem 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .carousel-inner {

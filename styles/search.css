@@ -48,6 +48,11 @@ aside {
   padding: 0 0.5rem;
 }
 
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+}
+
 .socials a {
   color: #888;
   font-size: 1.4rem;
@@ -168,6 +173,7 @@ aside {
 
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #383838;
 }
@@ -178,7 +184,29 @@ aside {
 
 .footer-list {
   display: flex;
+  justify-content: center;
   background-color: #383838;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 383px;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1214px) {
+  .flex-container {
+    justify-content: space-around !important;
+    width: 100%;
+    max-width: 100%;
+  } 
+
+  .footer-bottom-info {
+    width: 18rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -190,9 +218,7 @@ aside {
     display: none;
   }
 
-  .footer-bottom {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
+  .footer-bottom-info {
+    width: 12rem;
   }
 }

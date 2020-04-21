@@ -27,6 +27,7 @@ body {
   font-family: "Gotham Rounded", sans-serif;
   font-family: "Helvetica Neue", sans-serif;
   background-color: #888;
+  overflow-x: hidden;
 }
 
 nav {
@@ -128,7 +129,6 @@ p,
   padding: 0.7rem 0.5rem;
 }
 
-.carousel-section,
 .carousel-inner {
   width: 90%;
 }
@@ -136,6 +136,10 @@ p,
 .carousel-item img {
   width: 25rem;
   height: 15rem;
+}
+
+.carousel-sec {
+  margin: 0 2rem;
 }
 
 .card img {

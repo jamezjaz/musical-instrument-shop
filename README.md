@@ -2,6 +2,15 @@
 This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a design of an online musical instruments store. Here, one can actually search and place order for musical instruments online and it'd be delivered to his/her doorstep. The website contains 3 pages, the home page, the about page and the search page. The home page contains the carousel slide and the main contents. The about page contains the insights of what the company does and the search page contains the results of the serched item(s). All the pages are responsive. I was inspired by the work of [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
 
+## Video Presentation
+
+[Video Presentation](https://www.loom.com/share/e9c0d455c91f4d14bbc9e0557a9919e9)
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/ff436ef096339994261632575152e16ef6988f95/index.html) hosted on [githack](https://raw.githack.com)
+
+
 ## Preview
 # Desktop Views
 - Home Page
@@ -66,10 +75,6 @@ This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a
 - W3C validator for HTML
 - Stickler
 - Stylelint for VSCode
-
-## Live Demo
-
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/9bb332242fba9fcee31416d5ce68473b99f57637/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs

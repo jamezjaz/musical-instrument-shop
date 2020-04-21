@@ -68,16 +68,6 @@ aside {
   text-decoration: none;
 }
 
-.nav-list a:hover,
-.title,
-.make,
-.price,
-.arrow,
-.other-pages a:hover,
-.footer-bottom a:hover {
-  color: #d35266;
-}
-
 .btn {
   background-color: #d35266;
 }
@@ -149,6 +139,16 @@ aside {
 .footer-logo {
   width: 2rem;
   height: 2rem;
+}
+
+.nav-list a:hover,
+.title,
+.make,
+.price,
+.arrow,
+.other-pages a:hover,
+.footer-bottom a:hover {
+  color: #d35266;
 }
 
 .socials a:first-child:hover {

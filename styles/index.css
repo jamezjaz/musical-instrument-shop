@@ -28,6 +28,8 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   background-color: #888;
   overflow-x: hidden;
+  font-size: 0.9rem;
+  line-height: 1.7;
 }
 
 nav {

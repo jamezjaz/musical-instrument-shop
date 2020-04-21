@@ -27,6 +27,8 @@ body {
   font-family: "Gotham Rounded", sans-serif;
   font-family: "Helvetica Neue", sans-serif;
   background-color: #888;
+  font-size: 0.8rem;
+  overflow-x: hidden;
 }
 
 nav {
@@ -46,6 +48,12 @@ aside {
 
 .nav-list a {
   padding: 0 0.5rem;
+}
+
+.search-main h3,
+.search-main p,
+aside {
+  line-height: 1.7;
 }
 
 .footer-top {
@@ -123,6 +131,10 @@ aside {
 
 .search-row:hover {
   background-color: white;
+}
+
+.card-title {
+  font-size: 1rem;
 }
 
 .other-pages li {
@@ -220,5 +232,9 @@ aside {
 
   .footer-bottom-info {
     width: 12rem;
+  }
+
+  .heading h1 {
+    font-size: large;
   }
 }

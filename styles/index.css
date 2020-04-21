@@ -169,6 +169,10 @@ p,
   height: 2rem;
 }
 
+.footer-bottom a:hover {
+  color: #d35266;
+}
+
 .socials a:first-child:hover {
   color: rgb(63, 92, 154);
 }
@@ -197,10 +201,6 @@ p,
 
 .footer-bottom h2 {
   color: white;
-}
-
-.footer-bottom a:hover {
-  color: #d35266;
 }
 
 .footer-list {

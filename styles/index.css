@@ -196,6 +196,8 @@ p,
 
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
+  /* flex-flow: wrap; */
   justify-content: space-evenly;
   background-color: #383838;
 }
@@ -210,10 +212,13 @@ p,
 }
 
 @media only screen and (max-width: 768px) {
-  .footer-bottom {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 383px
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /* padding: 0 2rem; */
   }
 
   .keyboard,

@@ -114,12 +114,7 @@ p {
   top: 6rem;
 }
 
-.heading h2,
-.heading p {
-  color: white;
-}
-
-.heading h2 {
+.heading h1 {
   font-size: xx-large;
   text-decoration: underline;
 }

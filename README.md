@@ -10,46 +10,30 @@ This project is the HTML/CSS3 capstone project of Microverse curriculum. It is a
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/ff436ef096339994261632575152e16ef6988f95/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/3b21a1307ee2744cbac4a6bc0674f48187957643/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## Preview
 # Desktop Views
 - Home Page
-![musical-shop-page1](https://user-images.githubusercontent.com/57812000/79695730-234c2f00-823e-11ea-8563-20fea19d7f92.png)
-
-![musical-shop-page2](https://user-images.githubusercontent.com/57812000/79695820-93f34b80-823e-11ea-9b14-37e1137f3dde.png)
-
-![musical-shop-page3](https://user-images.githubusercontent.com/57812000/79695822-9655a580-823e-11ea-9472-2bdf3fd96d2b.png)
+![musical-home-desktop-current](https://user-images.githubusercontent.com/57812000/79936499-47199b80-841d-11ea-8141-b1f098fc95b3.png)
 
 - Search Page
-![musical-search-page1](https://user-images.githubusercontent.com/57812000/79696112-3fe96680-8240-11ea-888a-f21e916fef9c.png)
-
-![musical-search-page2](https://user-images.githubusercontent.com/57812000/79696119-4677de00-8240-11ea-90ed-8ab78e7da1f0.png)
-
-![musical-search-page3](https://user-images.githubusercontent.com/57812000/79696136-5db6cb80-8240-11ea-8b81-f2000af022b6.png)
+![musical-search-desktop](https://user-images.githubusercontent.com/57812000/79936633-9364db80-841d-11ea-815a-c998b8288e02.png)
 
 - About Page
-![musical-about-page1](https://user-images.githubusercontent.com/57812000/79696163-9656a500-8240-11ea-83fc-fd01cfe101fa.png)
+![musical-about-desktop](https://user-images.githubusercontent.com/57812000/79936660-a2e42480-841d-11ea-8e0c-f9ad86717341.png)
 
 
 # Mobile Views
               - Home Page
-![musical-shop-page-mobile1](https://user-images.githubusercontent.com/57812000/79696182-b5553700-8240-11ea-979d-0f9767694f45.png)
-
-![musical-shop-page-mobile2](https://user-images.githubusercontent.com/57812000/79696185-b8e8be00-8240-11ea-9635-7e330538718c.png)
-
-![musical-shop-page-mobile3](https://user-images.githubusercontent.com/57812000/79696189-bd14db80-8240-11ea-80dc-d44dcf776c51.png)
-
-![musical-shop-page-mobile4](https://user-images.githubusercontent.com/57812000/79696192-c1d98f80-8240-11ea-801c-45759e904d04.png)
+![musical-home-mobile-current](https://user-images.githubusercontent.com/57812000/79936725-c1e2b680-841d-11ea-861a-5479a5fafc10.png)
 
                 - Search Page
-![musical-search-mobile-page1](https://user-images.githubusercontent.com/57812000/79696221-ff3e1d00-8240-11ea-8138-02ac935f4592.png)
-
-![musical-search-mobile-page2](https://user-images.githubusercontent.com/57812000/79696225-02d1a400-8241-11ea-9662-b47d24cde553.png)
+![musical-search-mobile-page1](https://user-images.githubusercontent.com/57812000/79936759-d32bc300-841d-11ea-8da6-edaeb6eb51d6.png)
 
                 - About Page
-![musical-about-mobile-page1](https://user-images.githubusercontent.com/57812000/79702486-d3d02800-826a-11ea-879f-af3853379295.png)
+![musical-about-mobile](https://user-images.githubusercontent.com/57812000/79936786-e474cf80-841d-11ea-8857-d47910fa9243.png)
 
 
 

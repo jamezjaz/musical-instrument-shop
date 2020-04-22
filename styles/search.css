@@ -238,3 +238,27 @@ aside {
     font-size: large;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .cart {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .flex-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 6rem;
+  }
+  
+  .help {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .help {
+    font-size: 0.2rem !important;
+  }
+}

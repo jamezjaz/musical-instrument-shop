@@ -28,7 +28,7 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   background-color: #888;
   overflow-x: hidden;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.7;
 }
 
@@ -132,7 +132,7 @@ p,
 }
 
 .search-btn {
-  padding: 0.5rem 0.5rem;
+  padding: 0.4rem 0.5rem;
 }
 
 .carousel-inner {
@@ -276,6 +276,24 @@ p,
   .carousel-pad img {
     width: 100%;
   }
+
+  .footer-bottom h2 {
+    font-size: 0.7rem;
+  }
+
+  .price {
+    font-size: 0.5rem;
+  }
+
+  .flex-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 6rem;
+  }
+
+  .help {
+    font-size: 0.5rem !important;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -283,3 +301,10 @@ p,
     width: 70%;
   }
 }
+
+@media only screen and (max-width: 260px) {
+  .help {
+    font-size: 0.2rem !important;
+  }
+}
+

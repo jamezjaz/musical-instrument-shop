@@ -27,7 +27,7 @@ body {
   font-family: "Gotham Rounded", sans-serif;
   font-family: "Helvetica Neue", sans-serif;
   background-color: #888;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   overflow-x: hidden;
 }
 
@@ -216,7 +216,25 @@ p {
 }
 
 @media only screen and (max-width: 576px) {
-  .text-area {
-    width: 4rem;
+  .flex-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 6rem;
+  }
+  
+  .help {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .help {
+    font-size: 0.2rem !important;
+  }
+
+  .about-info {
+    padding: 1rem 2rem;
+    margin: 0 1.5rem;
+    line-height: 1.4;
   }
 }

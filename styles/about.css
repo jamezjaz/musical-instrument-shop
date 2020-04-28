@@ -1,0 +1,240 @@
+@import url(//db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham);
+@import url(//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue);
+
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg");
+}
+
+body {
+  font-family: "Gotham Rounded", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #888;
+  font-size: 0.8rem;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #383838;
+}
+
+a,
+.nav-list a,
+h2,
+h3,
+h6,
+p {
+  color: rgb(136, 136, 136);
+}
+
+.nav-list a {
+  padding: 0 0.5rem;
+}
+
+.socials a {
+  color: #888;
+  font-size: 1.4rem;
+  padding: 0 0.3rem;
+  border: 0.05rem solid #888;
+  border-radius: 3rem;
+  background-color: #383838;
+}
+
+.footer-bottom span,
+.footer-bottom a,
+.footer-bottom small,
+.footer-list li {
+  color: #888;
+}
+
+.nav-list a:hover {
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.title,
+.footer-bottom a:hover {
+  color: #d35266;
+}
+
+.btn {
+  background-color: #d35266;
+}
+
+.btn:hover {
+  background-color: #830c1e;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.main-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.background {
+  background-color: #d35266;
+}
+
+.main-form {
+  padding-bottom: 8rem;
+}
+
+.text-area {
+  width: 5rem;
+}
+
+.search-btn {
+  padding: 0.7rem 0.5rem;
+}
+
+.heading {
+  text-align: center;
+  position: relative;
+  top: 6rem;
+}
+
+.heading h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.about-info {
+  padding: 1rem 7rem;
+  margin: 0 5rem;
+  line-height: 1.7;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.socials a:first-child:hover {
+  color: rgb(63, 92, 154);
+}
+
+.socials a:nth-child(2):hover {
+  color: rgb(23, 148, 228);
+}
+
+.socials a:nth-child(3):hover {
+  color: rgb(156, 45, 186);
+}
+
+.socials a:nth-child(4):hover {
+  color: rgb(49, 67, 88);
+}
+
+.socials a:nth-child(5):hover {
+  color: rgb(0, 119, 177);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #383838;
+}
+
+.footer-bottom h2 {
+  color: white;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  background-color: #383838;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 383px;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1214px) {
+  .flex-container {
+    justify-content: space-around !important;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-bottom-info {
+    width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown {
+    display: none;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .about-info {
+    padding: 1rem 4rem;
+    margin: 0 3rem;
+    line-height: 1.5;
+  }
+
+  .footer-bottom-info {
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .flex-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 6rem;
+  }
+  
+  .help {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .help {
+    font-size: 0.2rem !important;
+  }
+
+  .about-info {
+    padding: 1rem 2rem;
+    margin: 0 1.5rem;
+    line-height: 1.4;
+  }
+}

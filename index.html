@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaz Musicals</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="//db.onlinewebfonts.com/c/1549fe8fd297f1e6501a3d6ad7f77394?family=Gotham+Rounded" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="main-container">
+        <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="" href="index.html">
+            <img class="logo" src="./images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center font-weight-bold nav-list">
+            <li class="nav-item pb-1 pr-3">
+              <a class="nav-list" href="index.html"><i class="fas fa-home"></i> HOME</a>
+            </li>
+            <li class="nav-item pb-1">
+              <a class="nav-list" href="about.html"><i class="fas fa-columns"></i> ABOUT</a>
+            </li>
+            <li class="nav-item pb-1">
+                <a class="nav-list" href="about.html"><i class="fas fa-shopping-cart"></i> CHECKOUT</a>
+            </li>
+            <li><button class="btn text-white">POST AN AD</button></li>
+          </ul>
+        </div>
+        <div class="nav-list d-none d-lg-flex">
+            <a href="#">
+                <i class="far fa-envelope"></i>
+                Jamezjaz@gmail.com
+            </a>
+        </div>
+      </nav>
+    <section class="background">
+        <div class="home-heading-con bg-white">
+            <h1 class="home-heading text-dark"><i class="fa fa-music py-3" aria-hidden="true"></i> MUSIC IS LIFE</h1>
+        </div>
+        <div class="search-bar">
+            <form action="search.html" class="d-flex justify-content-center main-form">
+				<div class="dropdown">
+					<button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Categories
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						<button class="dropdown-item" type="button">Percussion</button>
+						<button class="dropdown-item" type="button">Woodwind</button>
+                        <button class="dropdown-item" type="button">String</button>
+                        <button class="dropdown-item" type="button">Brass</button>
+                        <button class="dropdown-item" type="button">Keyboard</button>
+					</div>
+				</div>
+				<input type="text" placeholder="Search for products" class="text-area pl-2"/>
+				<input type="text"  placeholder="Location" class="text-area pl-2"/>
+				<button class="bg-dark text-white border-0 search-btn">Search</button>
+			</form>
+        </div>
+    </section>
+    <section class="d-flex align-items-center carousel-sec">
+		<a href="#" class="fas fa-chevron-left carousel-arrow"></a>
+		<div class="carousel slide d-flex justify-content-center" data-ride="carousel">
+			<div class="carousel-inner">
+				<h1 class="my-3 font-weight-bold">HOT ADS</h1>
+				<div class="carousel-item active">
+					<div class="d-block d-md-flex carousel-pad">
+                        <img src="./images/grand-paino.png" alt="Piano"/>
+                        <div class="carousel-body pl-4">
+                            <h2 class="font-weight-bold title pb-2">Grand Piano</h2>
+                            <p> Grand piano is an acoustic, stringed musical instrument invented in 
+                                Italy by Bartolomeo Cristofori around the year 1700 (the exact year 
+                                is uncertain), in which the strings are struck by felt hammers. It 
+                                is played using a keyboard, which is a row of keys (small levers) 
+                                that the performer presses down or strikes with the fingers and thumbs 
+                                of both hands to cause the hammers to strike the strings.
+                            </p>
+                            <p class="inventor py-2"><b>By:</b> Bartolomeo Cristofori.</p>
+                            <p class="pb-2"><b>Location:</b> Florence, Italy</p>
+                            <button class="btn">Buy $500</button>
+                        </div>
+                    </div> 
+				</div>
+				<div class="carousel-item">
+					<div class="d-block d-md-flex carousel-pad">
+                        <img src="./images/guitar.png" alt="Guitar"/>
+                        <div class="carousel-body pl-4">
+                            <h2 class="font-weight-bold title pb-2">Grand Piano</h2>
+                            <p> Grand piano is an acoustic, stringed musical instrument invented in 
+                                Italy by Bartolomeo Cristofori around the year 1700 (the exact year 
+                                is uncertain), in which the strings are struck by felt hammers. It 
+                                is played using a keyboard, which is a row of keys (small levers) 
+                                that the performer presses down or strikes with the fingers and thumbs 
+                                of both hands to cause the hammers to strike the strings.
+                            </p>
+                            <p class="inventor py-2"><b>By:</b> Bartolomeo Cristofori.</p>
+                            <p class="pb-2"><b>Location:</b> Florence, Italy</p>
+                            <button class="btn">Buy $500</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+					<div class="d-block d-md-flex carousel-pad">
+                        <img src="./images/drum.png" alt="Drum"/>
+                        <div class="carousel-body pl-4">
+                            <h2 class="font-weight-bold title pb-2">Grand Piano</h2>
+                            <p> Grand piano is an acoustic, stringed musical instrument invented in 
+                                Italy by Bartolomeo Cristofori around the year 1700 (the exact year 
+                                is uncertain), in which the strings are struck by felt hammers. It 
+                                is played using a keyboard, which is a row of keys (small levers) 
+                                that the performer presses down or strikes with the fingers and thumbs 
+                                of both hands to cause the hammers to strike the strings.
+                            </p>
+                            <p class="inventor py-2"><b>By:</b> Bartolomeo Cristofori.</p>
+                            <p class="pb-2"><b>Location:</b> Florence, Italy</p>
+                            <button class="btn">Buy $500</button>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="fas fa-chevron-right carousel-arrow"></a>
+    </section>
+    <!-- main section -->
+    <main class="bg-light">
+        <!-- first row -->
+        <div>
+            <div class="border-bottom my-3 mx-3">
+                <h2><i class="fa fa-music py-3" aria-hidden="true"></i> <b>Musicals</b> <span>(percussion instruments, woodwind instruments)</span></h2>
+            </div>
+            <div class="percussion my-4 mx-4">
+                <div class="arrow d-none d-md-block"><a href="#" class="fas fa-chevron-left"></a></div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/percussion1.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Japanese Percussion Instrument</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">$320.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/percussion3.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Japanese Percussion Instrument</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">$320.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/percussion2.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Japanese Percussion Instrument</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">$320.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/percussion4.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Japanese Percussion Instrument</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">$320.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow d-none d-md-block"><a href="#" class="fas fa-chevron-right"></a></div>
+            </div>
+        </div>
+        <!-- second row -->
+        <div>
+            <div class="border-bottom my-3 mx-3">
+                <h2><i class="fa fa-music py-3" aria-hidden="true"></i> <b>Musicals</b> <span>(Keyboards, Amplifiers, Speakers)</span></h2>
+            </div>
+            <div class="keyboard my-4 mx-4">
+                <div class="arrow d-none d-md-block"><a href="#" class="fas fa-chevron-left"></a></div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/keyboard.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Ultra Modern Keyboard</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">
+                                $710.25
+                                <br>
+                                <span class="line-through font-weight-light">$750.00</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/keyboard.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Ultra Modern Keyboard</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">
+                                $710.25
+                                <br>
+                                <span class="line-through font-weight-light">$750.00</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/keyboard.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Ultra Modern Keyboard</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">
+                                $710.25
+                                <br>
+                                <span class="line-through font-weight-light">$750.00</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="border-0">
+                        <a href="#"><img class="card-img-top w-100" src="./images/keyboard.png" alt="Percussion"></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold"><h3>Ultra Modern Keyboard</h3></div>
+                        <div class="card-text">
+                            <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                            <p><span>From: </span>Tokyo, Japan</p>
+                        </div>
+                        <div class="dropup d-flex align-items-baseline justify-content-between">
+                            <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                +
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item btn-dark" href="#">Add to Collection</a>
+                                <a class="dropdown-item btn-dark" href="#">Send a Message</a>
+                                <a class="dropdown-item btn-dark" href="#">More Details</a>
+                            </div>
+                            <h5 class="price">
+                                $710.25
+                                <br>
+                                <span class="line-through font-weight-light">$750.00</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow d-none d-md-block"><a href="#" class="fas fa-chevron-right"></a></div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="mt-4">
+        <div class="footer-top pb-3">
+            <div>
+                <a href="index.html"><img class="footer-logo" src="./images/logo.png" alt="Footer-Logo"></a>
+            </div>
+            <div class="socials pt-2">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tumblr"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="flex-container">
+                <div class="footer-bottom-info">
+                    <h2 class="help">GET IN TOUCH</h2>
+                    <div class="pt-3">
+                        <i class="fa fa-truck" aria-hidden="true"></i>
+                        <span><b>Lagos:</b> 505 Bode Thomas Road Surulere.</span>
+                    </div>
+                    <br>
+                    <span class="pl-4"> <b>Port Harcourt:</b> 121 George Washington Street.</span>
+                    <div class="py-3">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>+2348012345678</span>
+                    </div>
+                </div>
+                <div class="footer-bottom-info">
+                    <h2 class="help">HELP & SUPPORT</h2>
+                    <div class="pt-3">
+                        <div>
+                            <span><a href="#">FAQs</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Newsletter</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Contact Us</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="footer-bottom-info">
+                    <h2 class="help">COMPANY INFORMATION</h2>
+                    <div class="pt-3">
+                        <div>
+                            <span><a href="about.html">About Us</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Career Opportunities</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Privacy Policy</a></span>
+                        </div>
+                        <div class="py-2">
+                            <span><a href="#">Terms & Conditions</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-info">
+                    <h2 class="help">OPENING HOURS</h2>
+                    <div class="pt-3">
+                        <div>
+                            <span>Monday - Friday</span>
+                            <br>
+                            <small>8am to 5pm</small>
+                        </div>
+                        <div class="pt-2">
+                            <span>Monday - Friday</span>
+                            <br>
+                            <small>8am to 5pm</small>
+                        </div>
+                        <div class="pt-2">
+                            <span>Monday - Friday</span>
+                            <br>
+                            <small>8am to 5pm</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="footer-list pb-3">
+                <li class="list pr-2">Copyright &copy; 2020 - </li>
+                <li class="pr-2">All rights reserved.</li>
+                <li> Powered by Jaz-Tech.</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>

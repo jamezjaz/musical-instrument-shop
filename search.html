@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaz Musicals</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="//db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/search.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="main-container">
+        <!-- navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="" href="index.html">
+                <img class="logo" src="./images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav align-items-center font-weight-bold nav-list">
+                <li class="nav-item home pb-1 pr-3">
+                  <a class="nav-list" href="index.html"><i class="fas fa-home"></i> HOME</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-list" href="about.html"><i class="fas fa-columns"></i> ABOUT</a>
+                </li>
+                <li class="nav-item pb-1">
+                    <a class="nav-list" href="about.html"><i class="fas fa-shopping-cart"></i> CHECKOUT</a>
+                </li>
+                <li><button class="btn text-white">POST AN AD</button></li>
+              </ul>
+            </div>
+            <div class="nav-list d-none d-lg-flex">
+                <a href="#">
+                    <i class="far fa-envelope"></i>
+                    Jamezjaz@gmail.com
+                </a>
+            </div>
+          </nav>
+    <section class="background">
+        <div class="heading">
+            <h1 class="font-weight-bolder text-white">JAMEZJAZ MUSICAL WORLD</h1>
+		    <p class="text-white">Over 55,000 items on stock!</p>
+        </div>
+        <div class="search-bar">
+            <form action="search.html" class="d-flex justify-content-center main-form">
+				<div class="dropdown">
+					<button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Categories
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						<button class="dropdown-item" type="button">Percussion</button>
+						<button class="dropdown-item" type="button">Woodwind</button>
+                        <button class="dropdown-item" type="button">String</button>
+                        <button class="dropdown-item" type="button">Brass</button>
+                        <button class="dropdown-item" type="button">Keyboard</button>
+					</div>
+				</div>
+				<input type="text" placeholder="Classical Violin" class="pl-2"/>
+				<input type="text"  placeholder="$250 - $275" class="pl-2"/>
+				<button class="bg-dark text-white border-0 search-btn">Search</button>
+			</form>
+        </div>
+    </section>
+    <!-- main section -->
+    <main class="bg-light my-3 mx-4">
+        <div class="container-fluid">
+            <div class="row search-main">
+                <div class="col-3 border aside">
+                    <aside>
+                        <h5 class="pt-3 pb-2 font-weight-bolder ">Category</h5>
+                        <input type="checkbox" class="checkbox"> Japanese
+                        <br>
+                        <input type="checkbox"> Korean
+                        <br>
+                        <input type="checkbox"> Nigerian
+                        <hr>
+                        <h5 class="pt-2 pb-2 font-weight-bolder">Make</h5>
+                        <input type="checkbox" > Yamaha
+                        <br>
+                        <input type="checkbox"> Sony
+                        <br>
+                        <input type="checkbox"> Sennheiser
+                        <hr>
+                        <h5 class="pt-2 pb-2 font-weight-bolder">Price Range</h5>
+                        <input type="checkbox"> $100 - $150
+                        <br>
+                        <input type="checkbox"> $150 - $200 
+                        <br>
+                        <input type="checkbox"> $250 +
+                        <hr>
+                        <h5 class="pt-2 pb-2 font-weight-bolder">Size</h5>
+                        <input type="checkbox"> 10" - 20" 
+                        <br>
+                        <input type="checkbox"> 20" - 30" 
+                        <br>
+                        <input type="checkbox"> 30" and above
+                        <hr>
+                        <h5 class="pt-2 pb-2 font-weight-bolder">Delivery Method</h5>
+                        <input type="checkbox"> Home Delivery
+                        <br>
+                        <input type="checkbox"> Pick Up Station
+                        <hr>
+                        <h5 class="pt-2 pb-2 font-weight-bolder">Payment Method</h5>
+                        <input type="checkbox"> PayPal 
+                        <br>
+                        <input type="checkbox"> Credit Card 
+                        <br>
+                        <input type="checkbox"> Cryptocurrency
+                    </aside>
+                </div>
+                <div class="col border">
+                    <div class="row border mb-2">
+                        <div class="search-results px-3 pt-3">
+                            <p>About <b>300</b> search results for <b>"Yamaha Amplifier"</b> (0.62 seconds) </p>
+                        </div>
+                    </div>
+                    <div class="row border search-row">
+                        <div class="col-3">
+                            <div class="border-0 card-img-left">
+                                <a href="#"><img class="card-img-left w-100" src="./images/amplifier.png" alt="Speaker"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="card-title font-weight-bolder"><h3><b>Japanese Amplifiier</b></h3></div>
+                                <div class="card-text">
+                                    <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                                    <h3 class="pb-3">
+                                        Advanced Switching Regulator and Engine Technology An advanced Yamaha switching regulator 
+                                        and high-efficiency Engine technology give the PC-1N Series amplifiers high-quality sound 
+                                        and exceptional power with dramatically reduced power consumption and a new compact size.
+                                    </h3>
+                                    <p>Made in <span><b>Japan</b></span></p>
+                                    <p class="pt-3">First released on May, 2018</p>
+                                </div>
+                                <div class="dropup d-flex align-items-baseline justify-content-between">
+                                    <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        +
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenuButton">
+                                        <a class="dropdown-item btn-dark" href="#">More Details</a>
+                                        <a class="dropdown-item btn-dark" href="#">Rate this Product</a>
+                                    </div>
+                                    <h5 class="price">$320.00</h5>
+                                    <button class="btn cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border search-row my-2">
+                        <div class="col-3">
+                            <div class="border-0 card-img-left">
+                                <a href="#"><img class="card-img-left w-100" src="./images/amplifier2.png" alt="Speaker"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="card-title font-weight-bolder"><h3><b>Korean Amplifiier</b></h3></div>
+                                <div class="card-text">
+                                    <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                                    <h3 class="pb-3">
+                                        Advanced Switching Regulator and Engine Technology An advanced Yamaha switching regulator 
+                                        and high-efficiency Engine technology give the PC-1N Series amplifiers high-quality sound 
+                                        and exceptional power with dramatically reduced power consumption and a new compact size.
+                                    </h3>
+                                    <p>Made in <span><b>Japan</b></span></p>
+                                    <p class="pt-3">First released on May, 2018</p>
+                                </div>
+                                <div class="dropup d-flex align-items-baseline justify-content-between">
+                                    <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        +
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item btn-dark" href="#">More Details</a>
+                                        <a class="dropdown-item btn-dark" href="#">Rate this Product</a>
+                                    </div>
+                                    <h5 class="price">$320.00</h5>
+                                    <button class="btn cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border search-row my-2">
+                        <div class="col-3">
+                            <div class="border-0 card-img-left">
+                                <a href="#"><img class="card-img-left w-100" src="./images/amplifier.png" alt="Speaker"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="card-title font-weight-bolder"><h3><b>Japanese Amplifiier</b></h3></div>
+                                <div class="card-text">
+                                    <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                                    <h3 class="pb-3">
+                                        Advanced Switching Regulator and Engine Technology An advanced Yamaha switching regulator 
+                                        and high-efficiency Engine technology give the PC-1N Series amplifiers high-quality sound 
+                                        and exceptional power with dramatically reduced power consumption and a new compact size.
+                                    </h3>
+                                    <p>Made in <span><b>Japan</b></span></p>
+                                    <p class="pt-3">First released on May, 2018</p>
+                                </div>
+                                <div class="dropup d-flex align-items-baseline justify-content-between">
+                                    <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        +
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item btn-dark" href="#">More Details</a>
+                                        <a class="dropdown-item btn-dark" href="#">Rate this Product</a>
+                                    </div>
+                                    <h5 class="price">$320.00</h5>
+                                    <button class="btn cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border search-row my-2">
+                        <div class="col-3">
+                            <div class="border-0 card-img-left">
+                                <a href="#"><img class="card-img-left w-100" src="./images/amplifier2.png" alt="Speaker"></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="card-title font-weight-bolder"><h3><b>Korean Amplifiier</b></h3></div>
+                                <div class="card-text">
+                                    <h6 class="font-weight-bold make pb-2">YAMAHA</h6>
+                                    <h3 class="pb-3">
+                                        Advanced Switching Regulator and Engine Technology An advanced Yamaha switching regulator 
+                                        and high-efficiency Engine technology give the PC-1N Series amplifiers high-quality sound 
+                                        and exceptional power with dramatically reduced power consumption and a new compact size.
+                                    </h3>
+                                    <p>Made in <span><b>Japan</b></span></p>
+                                    <p class="pt-3">First released on May, 2018</p>
+                                </div>
+                                <div class="dropup d-flex align-items-baseline justify-content-between">
+                                    <button class="btn bg-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        +
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item btn-dark" href="#">More Details</a>
+                                        <a class="dropdown-item btn-dark" href="#">Rate this Product</a>
+                                    </div>
+                                    <h5 class="price">$320.00</h5>
+                                    <button class="btn cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-pages py-4">     
+                        <ul class="d-flex justify-content-center">
+                            <li class="noBorder"><a href="#" class="fas fa-chevron-left arrow"></a></li>
+                            <li><a href="#">1</a> </li>
+                            <li><a href="#">2</a> </li>
+                            <li><a href="#">3</a> </li>
+                            <li><a href="#">4</a> </li>
+                            <li><a href="#">5</a> </li>
+                            <li><a href="#">6</a> </li>
+                            <li><a href="#">7</a> </li>
+                            <li><a href="#">8</a> </li>
+                            <li><a href="#">9</a> </li>
+                            <li class="noBorder"><a href="#" class="fas fa-chevron-right arrow"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="mt-4">
+        <div class="footer-top pb-3">
+            <div>
+                <a href="index.html"><img class="footer-logo" src="./images/logo.png" alt="Footer-Logo"></a>
+            </div>
+            <div class="socials pt-2">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tumblr"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="flex-container">
+                <div class="footer-bottom-info">
+                    <h2 class="help">GET IN TOUCH</h2>
+                    <div class="pt-3">
+                        <i class="fa fa-truck" aria-hidden="true"></i>
+                        <span><b>Lagos:</b> 505 Bode Thomas Road Surulere.</span>
+                    </div>
+                    <br>
+                    <span class="pl-4"> <b>Port Harcourt:</b> 121 George Washington Street.</span>
+                    <div class="py-3">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>+2348012345678</span>
+                    </div>
+                </div>
+                <div class="footer-bottom-info">
+                    <h2 class="help">HELP & SUPPORT</h2>
+                    <div class="pt-3">
+                        <div>
+                            <span><a href="#">FAQs</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Newsletter</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Contact Us</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="footer-bottom-info">
+                    <h2 class="help">COMPANY INFORMATION</h2>
+                    <div class="pt-3">
+                        <div>
+                            <span><a href="about.html">About Us</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Career Opportunities</a></span>
+                        </div>
+                        <div class="pt-2">
+                            <span><a href="#">Privacy Policy</a></span>
+                        </div>
+                        <div class="py-2">
+                            <span><a href="#">Terms & Conditions</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-info">
+                    <h2 class="help">OPENING HOURS</h2>
+                    <div class="pt-3">
+                        <div>
+                            <span>Monday - Friday</span>
+                            <br>
+                            <small>8am to 5pm</small>
+                        </div>
+                        <div class="pt-2">
+                            <span>Monday - Friday</span>
+                            <br>
+                            <small>8am to 5pm</small>
+                        </div>
+                        <div class="pt-2">
+                            <span>Monday - Friday</span>
+                            <br>
+                            <small>8am to 5pm</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="footer-list pb-3">
+                <li class="list pr-2">Copyright &copy; 2020 - </li>
+                <li class="pr-2">All rights reserved.</li>
+                <li> Powered by Jaz-Tech.</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>
